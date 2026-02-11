@@ -1,0 +1,125 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.mg{
+    margin: 0px !important;
+}
+
+.pure-red{
+    background-color: #D84339;
+}
+.pure-red:hover{
+    .pure-red{
+        color: black !important;
+    }
+}
+.ancent-gray{
+    background-color: #64748B;
+}
+.drop-shadow{
+    filter: drop-shadow(3px 5px 5px black) !important;
+}
+.primary-navy-blue{
+    background-color:#1D61D1;
+}
+.action-blue{
+    background-color: #3d7fea !important;
+    color: white !important;
+} 
+.guest-blue{
+    background-color: #5679f6;
+}
+.font-1{
+    font-size: 2rem !important;
+}
+.font-checkout{
+    font-size: 0.87rem !important;
+}
+.height{
+    height: 100%;
+}
+.h-full{
+    height: 100vh !important;
+    position: sticky !important;
+    top: 0;
+}
+.primary-heading{
+    filter: drop-shadow(2px 3px 0.8px rgb(195, 195, 195));
+}
+.relative{
+    position: relative !important;
+}
+.drop-shadow{
+    filter: drop-shadow(1px 1.5px 0.5px rgb(195, 195, 195));
+}
+.position-right-top{
+    position: absolute; top: 10px; right: 10px;
+}
+
+/* Login eye button */
+.pwd-eye-btn{
+ position: absolute;
+ top: 7px;
+ right: 10px;
+}
+
+/* Navbar */
+.logo{
+    height: 30px;
+    filter: drop-shadow(3px 5px 5px rgb(65, 65, 65));
+}
+/* Visitor entry sec */
+.addVisitor{
+    border-radius: 10px;
+}
+.visitor,.font-1{
+    font-size: 0.87rem;
+}
+.bold{
+    font-weight:700 !important;
+}
+ .visitorDetails{
+    background-color: white;
+ }
+
+.rounded-input {
+  color: white !important;
+  height: 48px !important;
+  padding: 0 18px !important;
+  border-radius: 25px !important;              /* 🔥 rounded */
+  border: 1px solid #e5e7eb !important;
+  font-size: 15px !important;
+  outline: none !important;
+  background: transparent !important;
+  transition: all 0.2s ease !important;
+}
+
+.rounded-input::placeholder {
+  color: #ffffff;   /* white */
+  opacity: 1;       /* Firefox fix */
+}
+.cloud-alloy{
+background: linear-gradient(90deg, #2C6CBC, #71C3F7, #F6F6F6);
+
+}
+.min-height{
+    min-height: 100vh !important;
+}
+.glass-card {
+  width: 420px;
+  padding: 32px;
+  border-radius: 20px;
+
+  background: rgba(225, 225, 225, 0.129); /* glass */
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.table-responsive{
+    width: 100% !important;
+    overflow-x: auto !important;
+}
